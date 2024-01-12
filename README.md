@@ -1,6 +1,6 @@
-###Reminder: This branch is only for X86 platform, please check ARM branch for Pi like board.# README
+# README
 
-
+### Reminder: This branch is only for x86 platform, please check ARM branch for Pi like board.
 
 ### System Requirement
 
