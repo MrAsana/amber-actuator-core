@@ -183,13 +183,18 @@ wget https://raw.githubusercontent.com/AmberSTR/amber_actuator_tools/main/restor
 |                    | ki                  | get/set    | TRUE          |
 |                    | current_limit       | get/set    | TRUE          |
 |                    | VotageLimit         | get/set    | TRUE          |
-| Built-in  Commands | Save                | set ONLY   |               |
+| Built-in  Commands | Save ^1                | set ONLY   |               |
 |                    | InitialZeroPosition | set ONLY   |               |
-|                    | Calibrate           | set ONLY   |               |
+|                    | Calibrate ^2          | set ONLY   |               |
 
 \*Depend on Actuator Version
 
-**Note: Run save() to save the parameters persistently. Otherwise, the parameters are temporarily saved and will be reset after a power outage.**
+## Note: 
+
+1, Run save() to save the parameters persistently. Otherwise, the parameters will be lost when power if off.
+
+2, Enable joint to the desired mode first after calibration, or the motor won't move.
+
 
 ### Calibrate
 
