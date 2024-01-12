@@ -1,5 +1,7 @@
 # README
 
+### Reminder: This branch is only for ARM platform, please check out MAIN branch for x86 board.
+
 ### System Requirement
 
 Ubuntu 22.04
