@@ -1,12 +1,16 @@
-# README
+### Control Unit Requirement.
+> Any computer with USB port can be connected with the AMBER Robotic Actuator.
 
-### Reminder: This branch is only for x86 platform, please check ARM branch for Pi like board.
+> AMBER Master Control Unit is the best one with native motion control system for single actuator or multi-actuators like Robotic arm, humanoid, mobile robot and other automation integration. 
 
-### System Requirement
+### System Rquirement
 
-Ubuntu 22.04
+> Ubuntu 22.04
 
-Python >= 3.10
+> Python >= 3.10
+
+> Internet Connection ( only for installation )
+
 
 Internet Connection ( only for installation )
 
@@ -14,7 +18,7 @@ Tested on Ubuntu 22.04.2 LTS (GNU/Linux 6.2.0-37-generic x86_64)
 
 ### Connect Mini Hub to your actuator
 
-![connect](actuator-tuning-tool.assets/connect-1698915695644-2.png)
+![connect](actuator-tuning-tool.assets/2024-09-06_12-35-08.png)
 
 ### Install dependencies
 
